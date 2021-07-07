@@ -1,23 +1,14 @@
-COMP30027 - Machine Learning - Project 2 - Code Submission
-Gyu Hwan Park | Student ID: 998174
+# Sentiment analysis of restaurant reviews
+
+This is a supervised text classification task where the aim is the predict/classify restaurant review ratings from raw review text data from yelp.com.
 
 
-'kaggle_test_predictions' is the final prediction submitted on Kaggle.
-
-
-
-'Ass2_code.ipynb' is the python jupyter notebook file.
-
-Can really just run the whole notebook from top to bottom to get everything.
-But, some cells take really long to run (5min, 10min+, etc.).
-In these cases, I have used pickle and other loading methods to load specific dataframes/files.
-'k_best_features_chi2', 'X_train_new.npz', 'X_valid_new.npz' are these files.
-You also need to have all the provided data files ('review_text_test.csv', 'review_meta_test',... etc.) in the same folder to run all cells in notebook.
-
-
-
-Thanks!
-
+##'Ass2_code.ipynb' 
+- Python jupyter notebook file containing the whole project.
+- Experimented with different preprocessing methods of raw text data. Used count vectorizer to represent text data in vector space. Also explored word embedding methods.
+- Went through feature selection process using Chi-Squared Test. 
+- Compared performances of various machine learning models like Naive Bayes, SVMs, Tree-based methods and Logistic Regression.
+- Built a stacking ensemble classifier for best performance.
 
 
 
